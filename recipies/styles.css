@@ -1,0 +1,50 @@
+.Title {
+  border: 2px solid rgb(75 70 74);
+  background-color: rgb(196, 164, 132);
+  border-radius: 0.5em;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Image{
+    margin: 15px;
+    border: 2px solid rgb(75 70 74);
+    background-color: rgb(196, 164, 132);
+
+    display: inline-block;
+    height: 700px;
+    width: 800px;
+    text-align: center;
+}
+.Ingredients {
+  margin: 15px;
+  border: 2px solid rgb(75 70 74);
+  background-color: rgb(196, 164, 132);
+
+  display: inline-block;
+  height: 700px;
+  width: 800px;
+  vertical-align: bottom;
+  text-align: center;
+}
+.Recipe {
+    margin: 15px;
+    border: 2px solid rgb(75 70 74);
+    background-color: rgb(196, 164, 132);
+    
+    display: block;
+    height: 250px;
+    width: 1600px;
+}
+.container {
+    column-gap: 300px;
+    text-align: justify;
+    justify-content: center;
+}
+body {
+  background-color: rgb(245, 245, 220);
+}
